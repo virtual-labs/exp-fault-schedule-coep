@@ -1,3 +1,5 @@
+## Theory
+
 Fault finding and maintenance are critical aspects of ensuring the reliability, efficiency, and safety of process plants. Unplanned downtime, equipment failures, and process disruptions can result in significant losses, damage to equipment, and even pose risks to human life. Therefore, it is essential to develop a comprehensive fault finding and maintenance schedule for process plants to minimize downtime, reduce maintenance costs, and improve overall plant performance.
 
 #### Importance of Fault Finding and Maintenance
@@ -36,7 +38,7 @@ Identifying faults in a process plant requires a thorough understanding of the p
 -	Design or installation modifications
 -	Creating a Maintenance Schedule
 
-##### A maintenance schedule is essential for ensuring that regular maintenance activities are performed to prevent faults and downtime. A maintenance schedule should include:
+#### A maintenance schedule is essential for ensuring that regular maintenance activities are performed to prevent faults and downtime. A maintenance schedule should include:
 
 -	Scheduled maintenance tasks, such as routine inspections and servicing
 -	Frequency and duration of maintenance tasks
@@ -44,7 +46,7 @@ Identifying faults in a process plant requires a thorough understanding of the p
 -	Tracking and recording of maintenance activities and results
 -	Tracking Efficiency of Maintenance Work
 
-##### To track the efficiency of maintenance work, a mechanism should be established to monitor and measure key performance indicators (KPIs), such as:
+#### To track the efficiency of maintenance work, a mechanism should be established to monitor and measure key performance indicators (KPIs), such as:
 
 -	Mean Time Between Failures (MTBF)
 -	Mean Time to Repair (MTTR)
