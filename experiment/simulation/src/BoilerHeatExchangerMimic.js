@@ -2,7 +2,7 @@ var startCount=0;
 var dataJson={};
 
 
-var selectedValue = 1000;
+var selectedValue = 500;
 var faultcnt = 0;
 var faultcntCorr = 0;
 timerMasterJson = {};
@@ -99,27 +99,27 @@ $("#Header").html("<center><span >SIMULATION</span></center>");
 		+'<tbody>'
 		+' <tr>'
 		+'   <td><label><b>TT1</b></label></td>'
-		+'   <td><label class="PMCValue" id="tt1">0</label>°C</td>'
+		+'   <td><label class="PMCValue" id="tt1">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT2 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt2">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt2">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT3 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt3">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt3">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT4 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt4">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt4">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT5 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt5">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt5">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b> TT6</b></label></td>'
-		+' <td><label class="PMCValue" id="tt6">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt6">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>FT1</b></label></td>'
@@ -332,7 +332,7 @@ $("#Header").html("<center><span >SIMULATION</span></center>");
 		
 	});
 $("#reset,#resetToGo").click(function(){
-	
+	 $("#startBtn").prop("disabled",false);
 	BoilerHeatExchangerDiagram();
 		
 	});
@@ -360,40 +360,40 @@ $("#reset,#resetToGo").click(function(){
 </video></center>
 		`;
 		$("#refMimicBody").html(htm);
-		var video = document.getElementById("simVideo");
-
-	// Define the start and end skip times (in seconds)
-	var skipStart = 5;  // Skip the first 5 seconds
-	var skipEnd = 8;    // Skip the last 5 seconds
-
-// 	video.onloadedmetadata = function() { 
-	    // Get the duration of the video
-	    var videoDuration = video.duration;
-
-	    // Ensure the video plays between skipStart and (duration - skipEnd)
-	    video.currentTime = skipStart;
-
-	    // Event listener to pause the video when it reaches the end limit (video duration - skipEnd)
-	    video.ontimeupdate = function() {
-	        if (video.currentTime >= videoDuration - skipEnd) {
-	            video.pause();
-				video.currentTime = skipStart;
-	        }
-	    };
-
-	    // Prevent seeking outside the allowed time range
-	    video.addEventListener('seeking', function(event) {
-	        // If seeking before the start time or after the allowed end time, reset the current time
-	        if (video.currentTime < skipStart) {
-	            video.currentTime = skipStart;
-	        } else if (video.currentTime > videoDuration - skipEnd) {
-	            //video.currentTime = videoDuration - skipEnd;
-				video.currentTime = skipStart;
-	        }
-	    });
-// 	};
-	
-	video.play();
+//		var video = document.getElementById("simVideo");
+//
+//	// Define the start and end skip times (in seconds)
+//	var skipStart = 5;  // Skip the first 5 seconds
+//	var skipEnd = 8;    // Skip the last 5 seconds
+//
+//// 	video.onloadedmetadata = function() { 
+//	    // Get the duration of the video
+//	    var videoDuration = video.duration;
+//
+//	    // Ensure the video plays between skipStart and (duration - skipEnd)
+//	    video.currentTime = skipStart;
+//
+//	    // Event listener to pause the video when it reaches the end limit (video duration - skipEnd)
+//	    video.ontimeupdate = function() {
+//	        if (video.currentTime >= videoDuration - skipEnd) {
+//	            video.pause();
+//				video.currentTime = skipStart;
+//	        }
+//	    };
+//
+//	    // Prevent seeking outside the allowed time range
+//	    video.addEventListener('seeking', function(event) {
+	        
+//	        if (video.currentTime < skipStart) {
+//	            video.currentTime = skipStart;
+//	        } else if (video.currentTime > videoDuration - skipEnd) {
+//	            //video.currentTime = videoDuration - skipEnd;
+//				video.currentTime = skipStart;
+//	        }
+//	    });
+//// 	};
+//	
+//	video.play();
 		
 	});
 
@@ -1331,9 +1331,9 @@ $("#myModal1").on("hidden.bs.modal", function () {
 		  delay = 150; 
 		tank_empty(x+225, y+460);
 		water_supply_part1(x,y);
-		
-		
-
+		 $("#startBtn").prop("disabled",true);
+		 $("#reset").prop("disabled",true);
+		 $("#nextLevelFault").prop("disabled",true);
 	
 	for (let i = 0; i < arrayJson.TT1.length; i++) {
    
@@ -1573,11 +1573,11 @@ $("#myModal1").on("hidden.bs.modal", function () {
 	
 	if(arrayJson.MSV2[i] >= 10){
 		hot(x,y);
-		valve2.remove();
+		//valve2.remove();
 		valve2 = paper.image("images/svValveH2G.png", x+305, y+650, 50, 50).attr({ 'transform': 'r' + 270 });
 //		valve2.toBack();
 	}else{
-		valve2.remove();
+		//valve2.remove();
 		valve2 = paper.image("images/redValve.png", x+305, y+650, 50, 50).attr({ 'transform': 'r' + 270 });
 		
 		  
@@ -1586,12 +1586,12 @@ $("#myModal1").on("hidden.bs.modal", function () {
 	
 	
 	if(arrayJson.MSV1[i] > 0){
-		valve1.remove();
+		//valve1.remove();
 		 valve1 = paper.image("images/svValveH2G.png", x+270, y+595, 50, 50).toFront();
 //		 valve1.toBack();
 		
 	}else{
-		valve1.remove();
+		//valve1.remove();
 		
 		valve1 = paper.image("images/redValve.png", x+270, y+595, 50, 50);
 		
