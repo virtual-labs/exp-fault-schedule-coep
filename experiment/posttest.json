@@ -15,18 +15,6 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Which of the following is a common fault finding technique used in pilot plants?",
-      "answers": {
-        "a": "Visual inspection",
-        "b": "Instrumentation and sensor-based monitoring",
-        "c": "Data analytics and trend analysis",
-        "d": "All mentioned"
-      },
-     
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
-    {
       "question": "What is the term for the process of systematically identifying and prioritizing maintenance tasks in a pilot plant?",
       "answers": {
         "a": "Maintenance planning",
@@ -115,22 +103,6 @@
      
       "correctAnswer": "a",
       "difficulty": "beginner"
-    },
-	{
-      "question": "Which of the following is a key aspect of a successful maintenance program in a pilot plant?",
-      "answers": {
-        "a": "Effective communication and teamwork",
-        "b": "Proper training and development of maintenance personnel",
-        "c": "Continuous improvement and optimization",
-        "d": "All mentioned"
-      },
-     
-      "correctAnswer": "d",
-      "difficulty": "beginner"
     }
-
-	
-  
-  
   ]
 }
