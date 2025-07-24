@@ -1,0 +1,108 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the primary objective of fault finding in a pilot plant? ",
+      "answers": {
+        "a": "To identify the root cause of a fault",
+        "b": "To repair or replace faulty equipment",
+        "c": "To optimize process conditions",
+        "d": "To minimize production costs"
+		
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the term for the process of systematically identifying and prioritizing maintenance tasks in a pilot plant?",
+      "answers": {
+        "a": "Maintenance planning",
+        "b": "Maintenance scheduling",
+        "c": "Maintenance prioritization",
+        "d": "Maintenance optimization"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "Which of the following is a key performance indicator (KPI) used to measure the effectiveness of maintenance activities in a pilot plant?",
+      "answers": {
+        "a": "Mean Time Between Failures (MTBF)",
+        "b": "Mean Time To Repair (MTTR)",
+        "c": "Maintenance backlog",
+        "d": "Overall Equipment Effectiveness (OEE)"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the purpose of a pilot plant maintenance log?",
+      "answers": {
+        "a": "To track and record maintenance activities",
+        "b": "To assign maintenance tasks to personnel",
+        "c": "To provide a detailed description of maintenance tasks",
+        "d": "To optimize maintenance schedules"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "Which of the following is a benefit of implementing a predictive maintenance strategy in a pilot plant?",
+      "answers": {
+        "a": "Reduced maintenance costs",
+        "b": "Improved equipment reliability",
+        "c": "Increased production uptime",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	
+	
+	{
+      "question": "What is the term for the process of analyzing equipment condition data to predict potential faults in a pilot plant?",
+      "answers": {
+        "a": "Condition-based maintenance",
+        "b": "Predictive maintenance",
+        "c": "Preventive maintenance",
+        "d": "Corrective maintenance"
+		
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a common maintenance task performed in a pilot plant?",
+      "answers": {
+        "a": "Equipment inspection",
+        "b": "Instrument calibration",
+        "c": "Lubrication and greasing",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of a pilot plant maintenance procedure?",
+      "answers": {
+        "a": "To provide a detailed description of maintenance tasks",
+        "b": "To assign maintenance tasks to personnel",
+        "c": "To ensure compliance with regulatory requirements",
+        "d": "To optimize maintenance schedules"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the primary goal of fault finding in a process plant?",
+      "answers": {
+        "a": "To identify the root cause of a fault",
+        "b": "To repair or replace faulty equipment",
+        "c": "To minimize downtime and reduce maintenance costs",
+        "d": "To improve plant safety and efficiency"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a common method used for fault finding in a process plant?",
+      "answers": {
+        "a": "Visual inspection",
+        "b": "Instrumentation and sensor-based monitoring",
+        "c": "Data analytics and trend analysis",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the term for the process of identifying and addressing the underlying causes of a fault?",
+      "answers": {
+        "a": "Root Cause Analysis (RCA)",
+        "b": "Failure Mode and Effects Analysis (FMEA)",
+        "c": "Reliability-Centered Maintenance (RCM)",
+        "d": "Total Productive Maintenance (TPM)"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the purpose of a maintenance schedule in a process plant?",
+      "answers": {
+        "a": "To plan and schedule maintenance activities",
+        "b": "To track and record maintenance activities",
+        "c": "To assign maintenance tasks to personnel",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Which of the following is a type of maintenance that involves performing maintenance tasks based on the condition of equipment? ",
+      "answers": {
+        "a": "Preventive maintenance",
+        "b": "Predictive maintenance",
+        "c": "Corrective maintenance",
+        "d": "Scheduled maintenance"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the term for the process of identifying and prioritizing maintenance tasks based on their importance and urgency?",
+      "answers": {
+        "a": "Maintenance planning",
+        "b": "Maintenance scheduling",
+        "c": "Maintenance prioritization",
+        "d": "Maintenance optimization"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a benefit of implementing a Computerized Maintenance Management System (CMMS) in a process plant?",
+      "answers": {
+        "a": "Improved maintenance efficiency",
+        "b": "Reduced maintenance costs",
+        "c": "Enhanced data tracking and analysis",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "What is the purpose of a work order in a process plant?",
+      "answers": {
+        "a": "To assign maintenance tasks to personnel",
+        "b": "To track and record maintenance activities",
+        "c": "To provide a detailed description of maintenance tasks",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Which of the following is a key aspect of a successful maintenance program in a process plant?",
+      "answers": {
+        "a": "Effective communication and teamwork",
+        "b": "Proper training and development of maintenance personnel",
+        "c": "Continuous improvement and optimization",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  
+  
+  
+  ]
+}
