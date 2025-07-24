@@ -37,18 +37,6 @@
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-	{
-      "question": "Which of the following is a key performance indicator (KPI) used to measure maintenance efficiency?",
-      "answers": {
-        "a": "Mean Time Between Failures (MTBF)",
-        "b": "Mean Time To Repair (MTTR)",
-        "c": "Maintenance backlog",
-        "d": "All mentioned"
-      },
-     
-      "correctAnswer": "d",
-      "difficulty": "beginner"
-    },
 	
 	{
       "question": "What is the purpose of a maintenance schedule in a process plant?",
